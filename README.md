@@ -94,7 +94,7 @@ This project is licensed under the MIT License.
 - The interactive user interface is built using the Streamlit library. Refer to the [Streamlit documentation](https://docs.streamlit.io/) for details.
 - The LangChain library manages the conversational AI agent and tools. Find more information at the [LangChain GitHub repository](https://github.com/hwchase17/langchain).
 - The Transformers library facilitates AI inference. Further details about the models used can be found [here](https://huggingface.co/Salesforce/blip-image-captioning-large) and [here](https://huggingface.co/facebook/detr-resnet-50).
-- The above repository has been made from the following [repository](https://github.com/computervisioneng/ask-question-image-web-app-streamlit-langchain) and [tutorial](https://www.youtube.com/watch?v=71EOM5__vkI)
+- The above repository has been made from the following [repository](https://github.com/computervisioneng/ask-question-image-web-app-streamlit-langchain) and [tutorial](https://www.youtube.com/watch?v=71EOM5__vkI).
 ---
 
 Feel free to modify and personalize the content to fit your repository's specific details. Happy coding!
