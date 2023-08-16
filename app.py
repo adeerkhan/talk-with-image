@@ -34,7 +34,7 @@ agent = initialize_agent(
 )
 
 # set title
-st.title('Ask a question to an image')
+st.title('Talk with Images')
 
 # set header
 st.header("Please upload an image")
@@ -47,7 +47,7 @@ if file:
     st.image(file, use_column_width=True)
 
     # text input
-    user_question = st.text_input('Ask a question about your image:')
+    user_question = st.text_input('Ask a question from your image:')
 
     # compute agent response
     with open("temp.jpg", "w+b") as f:
