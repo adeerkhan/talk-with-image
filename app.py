@@ -50,7 +50,7 @@ if file:
     user_question = st.text_input('Ask a question about your image:')
 
     # compute agent response
-    with NamedTemporaryFile(dir='.') as f:
+    with open("temp.jpg", "w+b") as f:
         f.write(file.getbuffer())
         image_path = f.name
 
